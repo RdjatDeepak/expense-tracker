@@ -17,6 +17,12 @@ The application enables real-time tracking of personal financial streams, featur
 * **Layered Structural Separation**: Strict multi-tier modular boundaries for separation of concerns.
 
 ---
+Live Backend URL - https://ledgerstream-client.onrender.com
+Live FrontEnd URL - https://ledgerstream-client.onrender.com
+
+
+->>>>>>> It will take some in load because it is on render's free resources 
+
 
 ## 🛠️ Tech Stack & Architecture Rationales
 
