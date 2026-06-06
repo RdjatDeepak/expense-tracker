@@ -1,9 +1,10 @@
 // Automatically switch between local development and production deployment endpoints
 const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
   ? 'http://localhost:5001/api'
-  : `${window.location.protocol}//${window.location.hostname.replace('client', 'server').replace('manager', 'api')}/api`;
+  :'https://ledgerstream-backend.onrender.com/api';
+//   : `${window.location.protocol}//${window.location.hostname.replace('client', 'server').replace('manager', 'api')}/api`;
 
-  
+
 export const expenseApi = {
   // Fetch filtered expenses
   async getExpenses(filters = {}) {
